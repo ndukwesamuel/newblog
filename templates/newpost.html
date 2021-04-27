@@ -1,0 +1,63 @@
+
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{% static 'cssd/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'cssd/style.css'  %}">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="new1">
+    <a href="/">
+    <button class="btn btn-dark flt  new_btn"> DEV</button></a>
+     <p class="flt new_p ">Write a new post</p>
+        <p class="flt new_p">Edit</p>    
+        <p class="new_p">Preview</p>
+    </div>
+    
+    
+    <div class="row">
+        <div class="col-2">
+            
+        </div>
+        
+        <div class="col-lg-8">
+            <div class="new_content">
+                <button>Add a cover image</button>
+        
+                <form action="" method="POST"> 
+                    {% csrf_token   %}
+
+                    <div>
+                        <input class="newp" type="text" name="author"  placeholder="NEW POST TITLEE HERE">
+                    </div>
+
+                <div>
+                <input class="newp" type="text" name="title" placeholder="NEW POST TITLEE HERE">
+                </div>
+
+                <button>Add a cover image</button>
+        
+                <div>
+                <input class="post_content" type="text" name="message" id="" placeholder="write content here">
+                </div>
+
+                <input type="submit" value="submit">
+                
+                </form>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid at incidunt perspiciatis ipsam cumque doloremque consequuntur laborum laboriosam repudiandae, ipsum recusandae mollitia adipisci ipsa inventore iste. Labore hic ducimus quia?
+            </div>
+            
+        </div>
+
+        <div class="col-2">
+
+        </div>
+
+    </div>
+</body>
+</html>

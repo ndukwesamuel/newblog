@@ -1,0 +1,239 @@
+
+.log{
+    background-color: #EEF0F1;
+}
+
+/* this id for the login  */
+
+.log_1{
+    margin-top: 5em;
+    margin-left: 20em;
+    margin-right: 20em;
+    border: white solid 3px;
+    border-radius: 1em;
+    background-color: white;
+}
+
+.log_h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.log_lab{
+    margin-left: 2em;
+    font-size: 20px;
+}
+
+.log_p1,.log_p2{
+    text-align: center;
+    padding-top: 1em;
+}
+.log_btn_1, .log_btn_2{
+
+    background-color: #1DA1F2;
+    width: 30em;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.log_input{
+    
+    margin-left: 2.3em;
+    height: 3em;
+    border-radius: 10px;
+    width: 30em;
+    padding-left: 1em;
+    margin-bottom: 2em;
+background-color: transparent;
+}
+
+.log_btn{
+    width: 40em;
+    margin-left: 2em;
+    margin-top: 1em;
+    height:  3em;
+    border-radius: 1em;
+    background-color: #3B49DF;
+    color: white;
+}
+
+
+
+
+
+
+/* the media query end here */
+
+/* the log in end here */
+
+
+/* nav registration start here */
+
+.nav_form{
+    width: 20em;
+}
+.nav1{
+    padding-left: 45em;
+}
+.nav_3{
+    margin-left: 20px;
+}
+.nav_img{
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+/* the nav bar css end here */
+
+
+/* the main menu  css start here */
+.main{
+    padding-top: 5em;
+    background-color: #EEF0F1;
+}
+
+
+
+.main1_1{
+    margin-left: 20px;
+    
+}
+
+.main1_col1{
+    float: left;
+}
+
+.main1_1_img{
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 17px;
+}
+.main1_1_1{
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+    
+}
+
+
+
+
+.main1_2{
+    margin-left: 2em;
+    padding-top: 1em;
+}
+
+.main1_2_0{
+    font-size: 20px;
+    padding-bottom: 1em;
+}
+.main1_2_0 > a{
+    color: black;
+}
+
+.main1_3{
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+/* this is where the element of the first col end  */
+
+
+/* the thrid col start here */
+/* .main3{
+    border: 2px green solid;
+    margin-right: 1em;
+    border-radius: 10px;
+} */
+
+
+/* the csss for writing the new post start here */
+
+
+.new_content{
+    background-color: white;
+    margin-top: 3em;
+    padding-bottom: 10em;
+
+}
+
+.newp{
+    background-color: transparent;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    width: 40em;
+    height: 4em;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 2em;
+
+    
+}
+.post_content{
+    margin-left: 4em;
+    padding-left: 2em;
+    width: 50em;
+    padding-bottom: 10em;
+}
+
+
+
+.flt{
+    float: left;
+}
+
+.new1{
+    padding-left: 3em;
+    padding-top: 1em;
+}
+
+.new_btn{
+    margin-right: 3em;
+}
+
+.new_p{
+    margin-left: 1em;
+    margin-right: 2em;
+    font-size: 23px;
+}
+
+.new_input{
+    height:3em;
+    width: 20em;
+    border-radius: 8px;
+}
+
+.blog{
+    background-color: #B9B2AC;
+}
+
+.blog1{
+    background-color: white;
+    margin-top: 5em;
+    border-radius: 10px;
+    margin-bottom: 20em;
+}
+
+
+.blog_author{
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: -1em;
+}
+
+.blog_title{
+    text-align: center;
+    font-size: 2em;
+}
+
+.blog_body{
+    font-size: 1em;
+}

@@ -1,0 +1,111 @@
+{%  extends "nav.html"  %}
+{% block content %}
+{% load static %}
+
+
+<div class="main">
+
+    <div class="main1">
+
+            <div class="row">
+
+                <div class="col-lg-3">
+                        <div  class="main1_1">
+                            <a href="#">
+                                <img class="main1_1_img " src="{% static 'images/ss.jpg' %}" alt="" style="margin-right: 10px; float: left;">
+                                <div class="main1_1_1">
+                                    <h5>Ndukwe samuel</h5>
+                                    <p style="margin-left: 20px; margin-top: -10px;">@samheart</p>
+                               </div>
+                            </a>
+                        </div>
+                    <div> 
+                </div>
+                
+
+                <div class="main1_2">
+                   <div class="main1_2_0"><a href="">Reading list</a> </div>
+                   <div class="main1_2_0"><a href="">Listing </a> </div>
+                   <div class="main1_2_0"><a href="">Podcasts </a> </div>
+                   <div class="main1_2_0"><a href="">videos </a> </div>
+                   <div class="main1_2_0"><a href=""> Tags</a> </div>
+                   <div class="main1_2_0"><a href=""> More</a> </div>
+                </div>
+
+                <div class='main1_3'>
+                        <p>MY TAGS</p>
+                         <p>FOLLOW TAGS TO IMPROVE YOUR FEED</p>
+                         <p>#javascript</p>
+                         <p>Webdev</p>
+                
+                </div>
+                </div>
+<!-- the first div for col-lg-3 end here -->
+
+                <div class="col-lg-6">
+                    {% for blog in blog %}
+
+                    <div class="mmm" style="border:white solid 3px; background-color: white;   margin-bottom: 1em;">
+                        <a href=""> 
+                            <div style="float: left;">
+                            <img class=" nav_img" src="{% static 'images/ss.jpg' %}" alt="" style="margin-right: 10px;">
+                            </div>
+                            <h5>{{i.author}}</h1>
+                                <p style="margin-left: 20px; margin-top: -10px;">{{blog.author}}</p>
+                        </a>
+
+                        <h3><a href="{% url 'blog' blog.id %}">{{blog.title}}</a></h3>
+                       
+                        
+                        <div class="##">
+                            <a class="" href="/irene8308774/upgrade-
+                             invitation-from-huawei-analytics-kit-2542">
+                             <svg class="crayons-icon" width="24" height="24">
+                              <path d="M18.884 12.595l.01.011L12 19.5l-6.894-6.894.01-.01A4.875 4.875 0 0112 5.73a4.875 4.875 0 016.884 6.865zM6.431 7.037a3.375 3.375 0 000 4.773L12 17.38l5.569-5.569a3.375 3.375 0 10-4.773-4.773L9.613 10.22l-1.06-1.062 2.371-2.372a3.375 3.375 0 00-4.492.25v.001z"></path>
+                            </svg><span title="Number of reactions">1<span class="hidden s:inline">&nbsp;reaction</span></span></a>
+                        
+                            <a class="crayons-btn crayons-btn--ghost crayons-btn--s crayons-btn--icon-left" href="/irene83018774/upgrade-invitation-from-huawei-analytics-kit-2542#comments" data-testid="add-a-comment"><svg class="crayons-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg><span class="inline s:hidden">0</span><span class="hidden s:inline">Add comment</span></a>
+                        </div>
+                    </div> 
+                    {% endfor %}
+
+                </div>
+                <!-- this is were the  col0lg-6 div end  -->
+
+
+                <div class="col-lg-3">
+                    
+                    <div class="main3">
+                            <img class="main3_1_img" src="{% static 'images/access.png'%}"  alt="" width="314px">                        
+
+                        <hr>
+                        
+                        
+
+                    </div>
+                    
+                    
+
+                    
+
+                  </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+    
+    </div>
+    <!-- the closing main1 div end here -->
+
+
+</div>
+<!-- the main div end here -->
+
+
+
+
+
+{%  endblock %}

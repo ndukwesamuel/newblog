@@ -1,0 +1,49 @@
+
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="{% static 'cssd/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'cssd/style.css'  %}">
+</head>
+<body>
+
+
+    
+
+<div class="blog">
+    <a href="/"><h1>home</h1></a>
+
+
+    <div class="row ">
+
+        <div class="col-lg-2">
+
+        </div>
+
+        <div class="col-8 blog1">
+
+    <h3></h3>
+    <p class="blog_author">{{total.author}}</p>
+
+    <p class="blog_title">{{total.title}}</p>
+
+    
+        
+    <p class="blog_body">{{total.message}}</p>
+
+
+
+    <p>{{total.date}}</p>
+
+
+        </div>
+
+
+
+</div>
+
+
